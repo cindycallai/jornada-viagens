@@ -1,19 +1,29 @@
 /* Cores backgorunds
 Cores de botões
 Cores de textos */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
 /* Propriedades customizadas */
 :root{
+    --primary-color: #8F0101;
+    --secondary-color: #B81515;
+
     --background-primary-color: #ffffff;
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #000000;
 
-    --button-primary-color: #8F0101;
-    --button-secondary-color: #B81515;
-
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
-}
 
+    --titles-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
+}
 /*CSS RESET*/
 body, img, h1, p, fieldset, label, legend, input, select, textarea, button {
     margin: 0;
