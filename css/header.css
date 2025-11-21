@@ -12,10 +12,10 @@ header {
   width: 68px;
   height: 64px;
 }
-.logo-mobile {
+.img-mobile {
   display: block;
 }
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 .navigation-menu {
@@ -105,7 +105,7 @@ nav {
   .img-mobile {
     display: none;
   }
-    .navigation-menu a:hover {
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
